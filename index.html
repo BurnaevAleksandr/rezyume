@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--lang=ru контент страницы на русском-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,14 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/normalize.css">
     <link rel="stylesheet" href="./styles/styles.css">
+<!--    плохой заголовок окна для резюме-->
     <title>Document</title>
 </head>
 <body>
     <div class="page">
+<!--        разве вся страница это header?-->
         <header class="header">
+<!--            png для фото излишне, можно сделать оптимизацию до jpg-->
             <img class="photo" src="./images/freeraid.png" alt="Александр Иванович">
             <div class="header_info">
                 <h1 class="header__title">Бурнаев Александр Иванович</h1>
+
+<!--                как вариант можно было сделать раздельные секции,-->
+<!--                причем не всё оформлять как списки, а например dl dt dd больше подойдёт-->
+<!--                для подобной информации-->
              <ul>
                 <li>Дата рождения: 26.03.1992</li>
                 <li>Город: Саранск</li>
@@ -27,6 +35,7 @@
                 <li>Уровень английского: А2</li>
                 <li>Цели посещения курсов: получить необходимые знания для старта в IT</li>
                 <li>Откуда узнали про курс: от друзей</li>
+<!--                 телефон и почта оформляется через ссылки с href=tel: и href=mailto:-->
                 <li>Email: snovbars33@rambler.ru</li>
                 <li>Телефон: +79510563427</li>
              </ul>
